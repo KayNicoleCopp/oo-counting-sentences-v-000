@@ -14,8 +14,7 @@ self.end_with? ("?")
 self.end_with? ("!")
   end
 
-  def count_sentences
-    binding.pry 
+  def count_sentences 
 self.split (".") || ("!") || ("?")
   end
 end
