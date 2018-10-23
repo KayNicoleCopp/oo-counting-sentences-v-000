@@ -14,7 +14,8 @@ self.end_with? ("?")
 self.end_with? ("!")
   end
 
-  def count_sentences 
-self.split (".") || ("!") || ("?")
+  def count_sentences
+num_of_sentences = self.split (".") || ("!") || ("?")
+num_of_sentences.count
   end
 end
